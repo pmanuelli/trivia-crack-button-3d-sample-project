@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Sample View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="SampleViewController" customModule="Button3DSampleProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ial-PZ-3AF" customClass="AquaButton3D" customModule="Button3DSampleProject" customModuleProvider="target">
+                                <rect key="frame" x="20" y="120" width="335" height="57"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="57" id="jdl-vN-9cz"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="title" value="TOUCH ME"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="buttonTouched" destination="BYZ-38-t0r" eventType="touchUpInside" id="1Oe-bL-2aj"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="smw-dB-8CW" customClass="OrangeButton3D" customModule="Button3DSampleProject" customModuleProvider="target">
+                                <rect key="frame" x="20" y="197" width="335" height="57"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="57" id="Ju7-Kb-sLg"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="title" value="ORANGE BUTTON"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nIJ-vP-ZcX" customClass="CloseButton3D" customModule="Button3DSampleProject" customModuleProvider="target">
+                                <rect key="frame" x="320" y="64" width="35" height="36"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="ZxB-lO-nvL"/>
+                                    <constraint firstAttribute="width" constant="35" id="cdI-MB-HOT"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="okx-8C-zRr" customClass="InfoButton3D" customModule="Button3DSampleProject" customModuleProvider="target">
+                                <rect key="frame" x="20" y="64" width="35" height="36"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="AH4-Wh-c2F"/>
+                                    <constraint firstAttribute="width" constant="35" id="Kef-bI-4ye"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DfV-pz-8dv" customClass="RenewAttemptsByCurrencyButton3D" customModule="Button3DSampleProject" customModuleProvider="target">
+                                <rect key="frame" x="20" y="274" width="335" height="57"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="57" id="pLG-dI-8Ya"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qyf-Wi-Yug" customClass="RenewAttemptsByVideoButton3D" customModule="Button3DSampleProject" customModuleProvider="target">
+                                <rect key="frame" x="112.66666666666669" y="351" width="150" height="57"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="57" id="gU6-rE-e2V"/>
+                                    <constraint firstAttribute="width" constant="150" id="hhu-XW-Csv"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isShadowEnabled" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="keZ-hp-6DO" customClass="AquaButton3D" customModule="Button3DSampleProject" customModuleProvider="target">
+                                <rect key="frame" x="62.666666666666657" y="428" width="249.99999999999997" height="100"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="OaA-ky-gNx"/>
+                                    <constraint firstAttribute="height" constant="100" id="Tek-nI-gKe"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="title" value="BIGGER FONT AND TWO LINES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="numberOfLines">
+                                        <integer key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSizeIPhone">
+                                        <real key="value" value="28"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isShadowEnabled" value="NO"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="DfV-pz-8dv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="7wo-jr-QOS"/>
+                            <constraint firstItem="okx-8C-zRr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="8KI-tG-xM0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nIJ-vP-ZcX" secondAttribute="trailing" constant="20" id="9Hh-eK-Ygo"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="DfV-pz-8dv" secondAttribute="trailing" constant="20" id="Di4-Og-4oT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ial-PZ-3AF" secondAttribute="trailing" constant="20" id="Gos-7h-udd"/>
+                            <constraint firstItem="okx-8C-zRr" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="IOE-Bb-vXf"/>
+                            <constraint firstItem="DfV-pz-8dv" firstAttribute="top" secondItem="smw-dB-8CW" secondAttribute="bottom" constant="20" id="NxQ-Tu-I4t"/>
+                            <constraint firstItem="qyf-Wi-Yug" firstAttribute="top" secondItem="DfV-pz-8dv" secondAttribute="bottom" constant="20" id="Oy2-pU-wVM"/>
+                            <constraint firstItem="keZ-hp-6DO" firstAttribute="top" secondItem="qyf-Wi-Yug" secondAttribute="bottom" constant="20" id="eF1-jg-G1T"/>
+                            <constraint firstItem="smw-dB-8CW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="hVY-GS-9mR"/>
+                            <constraint firstItem="nIJ-vP-ZcX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="hYh-6N-caD"/>
+                            <constraint firstItem="Ial-PZ-3AF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="kWT-GL-cjb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="smw-dB-8CW" secondAttribute="trailing" constant="20" id="pQx-XR-KnB"/>
+                            <constraint firstItem="qyf-Wi-Yug" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="sOq-Z6-eEL"/>
+                            <constraint firstItem="Ial-PZ-3AF" firstAttribute="top" secondItem="nIJ-vP-ZcX" secondAttribute="bottom" constant="20" id="vYB-Yd-do7"/>
+                            <constraint firstItem="smw-dB-8CW" firstAttribute="top" secondItem="Ial-PZ-3AF" secondAttribute="bottom" constant="20" id="vwp-UX-F6r"/>
+                            <constraint firstItem="keZ-hp-6DO" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="x27-mS-eaM"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="orangeButton" destination="smw-dB-8CW" id="Bf2-ly-Kg4"/>
+                        <outlet property="renewByCurrencyButton" destination="DfV-pz-8dv" id="W1p-U7-cMh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="69.599999999999994" y="39.90147783251232"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9A7D1312443FDE500226571 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A7D1012443FDE400226571 /* SceneDelegate.swift */; };
+		E9A7D1322443FDE500226571 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A7D1042443FDE400226571 /* UIFont+Extension.swift */; };
+		E9A7D1332443FDE500226571 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A7D1052443FDE400226571 /* UIColor+Extension.swift */; };
+		E9A7D1342443FDE500226571 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A7D1062443FDE400226571 /* UIView+Extension.swift */; };
+		E9A7D1352443FDE500226571 /* UIViewDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A7D1072443FDE400226571 /* UIViewDesignable.swift */; };
+		E9A7D1362443FDE500226571 /* UIView+CornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A7D1082443FDE400226571 /* UIView+CornerRadius.swift */; };
+		E9A7D1372443FDE500226571 /* UIView+Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A7D1092443FDE400226571 /* UIView+Shadow.swift */; };
+		E9A7D1382443FDE500226571 /* Button3DLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A7D10B2443FDE400226571 /* Button3DLabel.swift */; };
+		E9A7D1392443FDE500226571 /* UserInterfaceIdiom.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A7D10C2443FDE400226571 /* UserInterfaceIdiom.swift */; };
+		E9A7D13A2443FDE500226571 /* Button3DRectangularLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A7D10F2443FDE400226571 /* Button3DRectangularLayout.swift */; };
+		E9A7D13B2443FDE500226571 /* Button3DCircularLayout.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9A7D1102443FDE400226571 /* Button3DCircularLayout.xib */; };
+		E9A7D13C2443FDE500226571 /* Button3DLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A7D1112443FDE400226571 /* Button3DLayout.swift */; };
+		E9A7D13D2443FDE500226571 /* Button3DRectangularLayout.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9A7D1122443FDE400226571 /* Button3DRectangularLayout.xib */; };
+		E9A7D13E2443FDE500226571 /* Button3DCircularLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A7D1132443FDE400226571 /* Button3DCircularLayout.swift */; };
+		E9A7D13F2443FDE500226571 /* Button3DContentWithLabelAndCurrencyAmount.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9A7D1152443FDE400226571 /* Button3DContentWithLabelAndCurrencyAmount.xib */; };
+		E9A7D1412443FDE500226571 /* Button3DContentWithLabelAndCurrencyAmount.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A7D1172443FDE400226571 /* Button3DContentWithLabelAndCurrencyAmount.swift */; };
+		E9A7D1422443FDE500226571 /* Button3DContentWithImageAndLabelTiny.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9A7D1182443FDE400226571 /* Button3DContentWithImageAndLabelTiny.xib */; };
+		E9A7D1432443FDE500226571 /* Button3DContentWithImageAndLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A7D1192443FDE400226571 /* Button3DContentWithImageAndLabel.swift */; };
+		E9A7D1442443FDE500226571 /* Button3DContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A7D11A2443FDE400226571 /* Button3DContent.swift */; };
+		E9A7D1452443FDE500226571 /* Button3DContentWithImageAndLabelNormal.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9A7D11B2443FDE400226571 /* Button3DContentWithImageAndLabelNormal.xib */; };
+		E9A7D1462443FDE500226571 /* Button3DContentWithImageAndLabelSmall.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9A7D11C2443FDE400226571 /* Button3DContentWithImageAndLabelSmall.xib */; };
+		E9A7D1472443FDE500226571 /* Button3D+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A7D11D2443FDE400226571 /* Button3D+Extension.swift */; };
+		E9A7D1482443FDE500226571 /* Button3D.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A7D11E2443FDE400226571 /* Button3D.swift */; };
+		E9A7D1492443FDE500226571 /* Button3DColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A7D11F2443FDE400226571 /* Button3DColors.swift */; };
+		E9A7D14B2443FDE500226571 /* AquaButton3D.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A7D1222443FDE400226571 /* AquaButton3D.swift */; };
+		E9A7D14C2443FDE500226571 /* RenewAttemptsByVideoButton3D.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A7D1232443FDE400226571 /* RenewAttemptsByVideoButton3D.swift */; };
+		E9A7D14D2443FDE500226571 /* OrangeButton3D.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A7D1242443FDE400226571 /* OrangeButton3D.swift */; };
+		E9A7D14E2443FDE500226571 /* InfoButton3D.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A7D1252443FDE400226571 /* InfoButton3D.swift */; };
+		E9A7D14F2443FDE500226571 /* CloseButton3D.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A7D1262443FDE400226571 /* CloseButton3D.swift */; };
+		E9A7D1512443FDE500226571 /* RenewAttemptsByCurrencyButton3D.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A7D1282443FDE400226571 /* RenewAttemptsByCurrencyButton3D.swift */; };
+		E9A7D1522443FDE500226571 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A7D1292443FDE500226571 /* AppDelegate.swift */; };
+		E9A7D1532443FDE500226571 /* SampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A7D12A2443FDE500226571 /* SampleViewController.swift */; };
+		E9A7D1542443FDE500226571 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9A7D12C2443FDE500226571 /* Assets.xcassets */; };
+		E9A7D1552443FDE500226571 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9A7D12D2443FDE500226571 /* LaunchScreen.storyboard */; };
+		E9A7D1562443FDE500226571 /* Mikado-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E9A7D12F2443FDE500226571 /* Mikado-Bold.otf */; };
+		E9A7D15E2443FE2B00226571 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9A7D15D2443FE2A00226571 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E9A7D0E72443FDC600226571 /* Button3DSampleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Button3DSampleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9A7D0F82443FDC600226571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9A7D1012443FDE400226571 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E9A7D1042443FDE400226571 /* UIFont+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		E9A7D1052443FDE400226571 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		E9A7D1062443FDE400226571 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		E9A7D1072443FDE400226571 /* UIViewDesignable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewDesignable.swift; sourceTree = "<group>"; };
+		E9A7D1082443FDE400226571 /* UIView+CornerRadius.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+CornerRadius.swift"; sourceTree = "<group>"; };
+		E9A7D1092443FDE400226571 /* UIView+Shadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Shadow.swift"; sourceTree = "<group>"; };
+		E9A7D10B2443FDE400226571 /* Button3DLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button3DLabel.swift; sourceTree = "<group>"; };
+		E9A7D10C2443FDE400226571 /* UserInterfaceIdiom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInterfaceIdiom.swift; sourceTree = "<group>"; };
+		E9A7D10F2443FDE400226571 /* Button3DRectangularLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button3DRectangularLayout.swift; sourceTree = "<group>"; };
+		E9A7D1102443FDE400226571 /* Button3DCircularLayout.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Button3DCircularLayout.xib; sourceTree = "<group>"; };
+		E9A7D1112443FDE400226571 /* Button3DLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button3DLayout.swift; sourceTree = "<group>"; };
+		E9A7D1122443FDE400226571 /* Button3DRectangularLayout.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Button3DRectangularLayout.xib; sourceTree = "<group>"; };
+		E9A7D1132443FDE400226571 /* Button3DCircularLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button3DCircularLayout.swift; sourceTree = "<group>"; };
+		E9A7D1152443FDE400226571 /* Button3DContentWithLabelAndCurrencyAmount.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Button3DContentWithLabelAndCurrencyAmount.xib; sourceTree = "<group>"; };
+		E9A7D1172443FDE400226571 /* Button3DContentWithLabelAndCurrencyAmount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button3DContentWithLabelAndCurrencyAmount.swift; sourceTree = "<group>"; };
+		E9A7D1182443FDE400226571 /* Button3DContentWithImageAndLabelTiny.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Button3DContentWithImageAndLabelTiny.xib; sourceTree = "<group>"; };
+		E9A7D1192443FDE400226571 /* Button3DContentWithImageAndLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button3DContentWithImageAndLabel.swift; sourceTree = "<group>"; };
+		E9A7D11A2443FDE400226571 /* Button3DContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button3DContent.swift; sourceTree = "<group>"; };
+		E9A7D11B2443FDE400226571 /* Button3DContentWithImageAndLabelNormal.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Button3DContentWithImageAndLabelNormal.xib; sourceTree = "<group>"; };
+		E9A7D11C2443FDE400226571 /* Button3DContentWithImageAndLabelSmall.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Button3DContentWithImageAndLabelSmall.xib; sourceTree = "<group>"; };
+		E9A7D11D2443FDE400226571 /* Button3D+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Button3D+Extension.swift"; sourceTree = "<group>"; };
+		E9A7D11E2443FDE400226571 /* Button3D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button3D.swift; sourceTree = "<group>"; };
+		E9A7D11F2443FDE400226571 /* Button3DColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button3DColors.swift; sourceTree = "<group>"; };
+		E9A7D1222443FDE400226571 /* AquaButton3D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AquaButton3D.swift; sourceTree = "<group>"; };
+		E9A7D1232443FDE400226571 /* RenewAttemptsByVideoButton3D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RenewAttemptsByVideoButton3D.swift; sourceTree = "<group>"; };
+		E9A7D1242443FDE400226571 /* OrangeButton3D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrangeButton3D.swift; sourceTree = "<group>"; };
+		E9A7D1252443FDE400226571 /* InfoButton3D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoButton3D.swift; sourceTree = "<group>"; };
+		E9A7D1262443FDE400226571 /* CloseButton3D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseButton3D.swift; sourceTree = "<group>"; };
+		E9A7D1282443FDE400226571 /* RenewAttemptsByCurrencyButton3D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RenewAttemptsByCurrencyButton3D.swift; sourceTree = "<group>"; };
+		E9A7D1292443FDE500226571 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E9A7D12A2443FDE500226571 /* SampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleViewController.swift; sourceTree = "<group>"; };
+		E9A7D12C2443FDE500226571 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9A7D12E2443FDE500226571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E9A7D12F2443FDE500226571 /* Mikado-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mikado-Bold.otf"; sourceTree = "<group>"; };
+		E9A7D15D2443FE2A00226571 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9A7D0E42443FDC600226571 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9A7D0DE2443FDC600226571 = {
+			isa = PBXGroup;
+			children = (
+				E9A7D0E92443FDC600226571 /* Button3DSampleProject */,
+				E9A7D0E82443FDC600226571 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9A7D0E82443FDC600226571 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9A7D0E72443FDC600226571 /* Button3DSampleProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9A7D0E92443FDC600226571 /* Button3DSampleProject */ = {
+			isa = PBXGroup;
+			children = (
+				E9A7D1022443FDE400226571 /* View */,
+				E9A7D12B2443FDE500226571 /* Resource */,
+				E9A7D1292443FDE500226571 /* AppDelegate.swift */,
+				E9A7D1012443FDE400226571 /* SceneDelegate.swift */,
+				E9A7D12A2443FDE500226571 /* SampleViewController.swift */,
+				E9A7D15D2443FE2A00226571 /* Main.storyboard */,
+				E9A7D12D2443FDE500226571 /* LaunchScreen.storyboard */,
+				E9A7D0F82443FDC600226571 /* Info.plist */,
+			);
+			path = Button3DSampleProject;
+			sourceTree = "<group>";
+		};
+		E9A7D1022443FDE400226571 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E9A7D10C2443FDE400226571 /* UserInterfaceIdiom.swift */,
+				E9A7D1032443FDE400226571 /* Extension */,
+				E9A7D10A2443FDE400226571 /* Label */,
+				E9A7D10D2443FDE400226571 /* Button */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E9A7D1032443FDE400226571 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E9A7D1042443FDE400226571 /* UIFont+Extension.swift */,
+				E9A7D1052443FDE400226571 /* UIColor+Extension.swift */,
+				E9A7D1062443FDE400226571 /* UIView+Extension.swift */,
+				E9A7D1082443FDE400226571 /* UIView+CornerRadius.swift */,
+				E9A7D1092443FDE400226571 /* UIView+Shadow.swift */,
+				E9A7D1072443FDE400226571 /* UIViewDesignable.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		E9A7D10A2443FDE400226571 /* Label */ = {
+			isa = PBXGroup;
+			children = (
+				E9A7D10B2443FDE400226571 /* Button3DLabel.swift */,
+			);
+			path = Label;
+			sourceTree = "<group>";
+		};
+		E9A7D10D2443FDE400226571 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				E9A7D11E2443FDE400226571 /* Button3D.swift */,
+				E9A7D11D2443FDE400226571 /* Button3D+Extension.swift */,
+				E9A7D11F2443FDE400226571 /* Button3DColors.swift */,
+				E9A7D10E2443FDE400226571 /* Layout */,
+				E9A7D1142443FDE400226571 /* Content */,
+				E9A7D1202443FDE400226571 /* Custom */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		E9A7D10E2443FDE400226571 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				E9A7D1112443FDE400226571 /* Button3DLayout.swift */,
+				E9A7D10F2443FDE400226571 /* Button3DRectangularLayout.swift */,
+				E9A7D1122443FDE400226571 /* Button3DRectangularLayout.xib */,
+				E9A7D1132443FDE400226571 /* Button3DCircularLayout.swift */,
+				E9A7D1102443FDE400226571 /* Button3DCircularLayout.xib */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		E9A7D1142443FDE400226571 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				E9A7D11A2443FDE400226571 /* Button3DContent.swift */,
+				E9A7D1192443FDE400226571 /* Button3DContentWithImageAndLabel.swift */,
+				E9A7D1182443FDE400226571 /* Button3DContentWithImageAndLabelTiny.xib */,
+				E9A7D11B2443FDE400226571 /* Button3DContentWithImageAndLabelNormal.xib */,
+				E9A7D11C2443FDE400226571 /* Button3DContentWithImageAndLabelSmall.xib */,
+				E9A7D1172443FDE400226571 /* Button3DContentWithLabelAndCurrencyAmount.swift */,
+				E9A7D1152443FDE400226571 /* Button3DContentWithLabelAndCurrencyAmount.xib */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		E9A7D1202443FDE400226571 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				E9A7D1222443FDE400226571 /* AquaButton3D.swift */,
+				E9A7D1242443FDE400226571 /* OrangeButton3D.swift */,
+				E9A7D1262443FDE400226571 /* CloseButton3D.swift */,
+				E9A7D1252443FDE400226571 /* InfoButton3D.swift */,
+				E9A7D1232443FDE400226571 /* RenewAttemptsByVideoButton3D.swift */,
+				E9A7D1282443FDE400226571 /* RenewAttemptsByCurrencyButton3D.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		E9A7D12B2443FDE500226571 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				E9A7D12C2443FDE500226571 /* Assets.xcassets */,
+				E9A7D12F2443FDE500226571 /* Mikado-Bold.otf */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9A7D0E62443FDC600226571 /* Button3DSampleProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9A7D0FB2443FDC600226571 /* Build configuration list for PBXNativeTarget "Button3DSampleProject" */;
+			buildPhases = (
+				E9A7D0E32443FDC600226571 /* Sources */,
+				E9A7D0E42443FDC600226571 /* Frameworks */,
+				E9A7D0E52443FDC600226571 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Button3DSampleProject;
+			productName = Button3DSampleProject;
+			productReference = E9A7D0E72443FDC600226571 /* Button3DSampleProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9A7D0DF2443FDC600226571 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "No Name";
+				TargetAttributes = {
+					E9A7D0E62443FDC600226571 = {
+						CreatedOnToolsVersion = 11.4;
+						LastSwiftMigration = 1140;
+					};
+				};
+			};
+			buildConfigurationList = E9A7D0E22443FDC600226571 /* Build configuration list for PBXProject "Button3DSampleProject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9A7D0DE2443FDC600226571;
+			productRefGroup = E9A7D0E82443FDC600226571 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9A7D0E62443FDC600226571 /* Button3DSampleProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9A7D0E52443FDC600226571 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9A7D1552443FDE500226571 /* LaunchScreen.storyboard in Resources */,
+				E9A7D15E2443FE2B00226571 /* Main.storyboard in Resources */,
+				E9A7D1452443FDE500226571 /* Button3DContentWithImageAndLabelNormal.xib in Resources */,
+				E9A7D13D2443FDE500226571 /* Button3DRectangularLayout.xib in Resources */,
+				E9A7D1422443FDE500226571 /* Button3DContentWithImageAndLabelTiny.xib in Resources */,
+				E9A7D1462443FDE500226571 /* Button3DContentWithImageAndLabelSmall.xib in Resources */,
+				E9A7D13F2443FDE500226571 /* Button3DContentWithLabelAndCurrencyAmount.xib in Resources */,
+				E9A7D1562443FDE500226571 /* Mikado-Bold.otf in Resources */,
+				E9A7D1542443FDE500226571 /* Assets.xcassets in Resources */,
+				E9A7D13B2443FDE500226571 /* Button3DCircularLayout.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9A7D0E32443FDC600226571 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9A7D1472443FDE500226571 /* Button3D+Extension.swift in Sources */,
+				E9A7D14C2443FDE500226571 /* RenewAttemptsByVideoButton3D.swift in Sources */,
+				E9A7D1372443FDE500226571 /* UIView+Shadow.swift in Sources */,
+				E9A7D1432443FDE500226571 /* Button3DContentWithImageAndLabel.swift in Sources */,
+				E9A7D1522443FDE500226571 /* AppDelegate.swift in Sources */,
+				E9A7D14E2443FDE500226571 /* InfoButton3D.swift in Sources */,
+				E9A7D1492443FDE500226571 /* Button3DColors.swift in Sources */,
+				E9A7D1512443FDE500226571 /* RenewAttemptsByCurrencyButton3D.swift in Sources */,
+				E9A7D13C2443FDE500226571 /* Button3DLayout.swift in Sources */,
+				E9A7D14B2443FDE500226571 /* AquaButton3D.swift in Sources */,
+				E9A7D1382443FDE500226571 /* Button3DLabel.swift in Sources */,
+				E9A7D1392443FDE500226571 /* UserInterfaceIdiom.swift in Sources */,
+				E9A7D1352443FDE500226571 /* UIViewDesignable.swift in Sources */,
+				E9A7D13E2443FDE500226571 /* Button3DCircularLayout.swift in Sources */,
+				E9A7D1332443FDE500226571 /* UIColor+Extension.swift in Sources */,
+				E9A7D1322443FDE500226571 /* UIFont+Extension.swift in Sources */,
+				E9A7D14D2443FDE500226571 /* OrangeButton3D.swift in Sources */,
+				E9A7D1362443FDE500226571 /* UIView+CornerRadius.swift in Sources */,
+				E9A7D13A2443FDE500226571 /* Button3DRectangularLayout.swift in Sources */,
+				E9A7D14F2443FDE500226571 /* CloseButton3D.swift in Sources */,
+				E9A7D1532443FDE500226571 /* SampleViewController.swift in Sources */,
+				E9A7D1482443FDE500226571 /* Button3D.swift in Sources */,
+				E9A7D1412443FDE500226571 /* Button3DContentWithLabelAndCurrencyAmount.swift in Sources */,
+				E9A7D1342443FDE500226571 /* UIView+Extension.swift in Sources */,
+				E9A7D1442443FDE500226571 /* Button3DContent.swift in Sources */,
+				E9A7D1312443FDE500226571 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E9A7D12D2443FDE500226571 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9A7D12E2443FDE500226571 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9A7D0F92443FDC600226571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E9A7D0FA2443FDC600226571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9A7D0FC2443FDC600226571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Button3DSampleProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.organizationid.button3dsampleproject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E9A7D0FD2443FDC600226571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Button3DSampleProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.organizationid.button3dsampleproject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9A7D0E22443FDC600226571 /* Build configuration list for PBXProject "Button3DSampleProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9A7D0F92443FDC600226571 /* Debug */,
+				E9A7D0FA2443FDC600226571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9A7D0FB2443FDC600226571 /* Build configuration list for PBXNativeTarget "Button3DSampleProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9A7D0FC2443FDC600226571 /* Debug */,
+				E9A7D0FD2443FDC600226571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9A7D0DF2443FDC600226571 /* Project object */;
+}
